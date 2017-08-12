@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/usersMyBookings"
+        android:title="My bookings"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/usersNewBooking"
+        android:title="New Booking"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/usersFeedback"
+        android:title="My Feedback"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="Send Feedback"
+        android:id="@+id/usersSendFeedback"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/usersLogout"
+        android:title="Logout"
+        app:showAsAction="never"
+        />
+</menu>

@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context="roshaan.parkingsystem.SendFeedback">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/studentProfileTopText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Feedback"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/studentProfileWarning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Be carefull feedback once added cant be changed . All fields are mandatory" />
+
+
+
+    <EditText
+        android:id="@+id/sendFeedbackTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/sendFeedbackDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:maxLines="3"
+        android:hint="Description"/>
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/feedbackSendButton"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>

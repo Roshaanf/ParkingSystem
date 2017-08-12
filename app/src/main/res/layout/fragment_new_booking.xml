@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="roshaan.parkingsystem.NewBooking">
+    
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Areas"
+        android:textStyle="bold"
+       android:textSize="25sp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="Select any area that suits you best"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:gravity="center"
+        android:orientation="vertical">
+   <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="-20dp"
+        android:layout_height="wrap_content"
+        android:text="Gulshan-e-Iqbal"
+        android:textAllCaps="false"
+        android:id="@+id/areaGulshan"
+       android:textColor="#ffffff"
+        />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="Gulistan-e-Johar"
+            android:textAllCaps="false"
+            android:id="@+id/areaGuistan"
+            android:textColor="#ffffff"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="Sadar"
+            android:textAllCaps="false"
+            android:id="@+id/areaSadar"
+
+            android:textColor="#ffffff"            />
+    </LinearLayout>
+</LinearLayout>
